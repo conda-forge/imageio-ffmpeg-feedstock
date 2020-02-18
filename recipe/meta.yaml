@@ -1,6 +1,6 @@
 {% set name = "imageio-ffmpeg" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "28500544acdebc195159d53a4670b76d596f368b218317bad5d3cbf43b00d6c2" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "21790a32a44bc49eef234fd6cfeb27c4d85dd9efa629747031cf8e1e062353d1" %}
 
 
 package:
@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   number: 0
 
 requirements:
