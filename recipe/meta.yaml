@@ -1,6 +1,6 @@
 {% set name = "imageio-ffmpeg" %}
-{% set version = "0.4.6" %}
-{% set sha256 = "ceb306d014c7d5df9c6c31318a872ec3305b0595960f7253b87da28ff9308343" %}
+{% set version = "0.4.7" %}
+{% set sha256 = "7a08838f97f363e37ca41821b864fd3fdc99ab1fe2421040c78eb5f56a9e723e" %}
 
 
 package:
