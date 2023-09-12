@@ -1,11 +1,11 @@
-About imageio-ffmpeg
-====================
+About imageio-ffmpeg-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/imageio-ffmpeg-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/imageio/imageio-ffmpeg
 
 Package license: BSD 2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/imageio-ffmpeg-feedstock/blob/main/LICENSE.txt)
 
 Summary: FFMPEG wrapper for Python
 
