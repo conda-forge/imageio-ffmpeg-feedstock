@@ -1,6 +1,6 @@
 {% set name = "imageio-ffmpeg" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "e2556bed8e005564a9f925bb7afa4002d82770d6b08825078b7697ab88ba1755" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "0385d9bab7dc7d7141af7d0f160059e05f0d874116faf9ce91f6fcfd66e938f2" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
